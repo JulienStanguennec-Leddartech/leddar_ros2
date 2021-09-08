@@ -1,0 +1,7 @@
+leddar_sensor:
+  ros__parameters:
+    param1: 'AL26025' #Here comes the serial number of the M16 sensor.
+    device_type: 'M16'
+    param3: 0
+    param4: 0
+

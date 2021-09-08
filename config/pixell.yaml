@@ -1,0 +1,6 @@
+leddar_sensor:
+  ros__parameters:
+    param1: '192.168.1.2'
+    device_type: 'Ethernet'
+    param3: 48630
+    param4: 0
