@@ -22,13 +22,13 @@ sudo apt update
 sudo apt install ros-eloquent-desktop
 ```
 
-Once installed, you may [create a workspace](https://https://docs.ros.org/en/eloquent/Tutorials/Workspace/Creating-A-Workspace.html) as described in ROS documentation.
+Once installed, you may [create a workspace](https://docs.ros.org/en/eloquent/Tutorials/Workspace/Creating-A-Workspace.html) as described in ROS documentation.
 
-Do not forget to [source your ros2 environment](https://https://docs.ros.org/en/eloquent/Tutorials/Configuring-ROS2-Environment.html#configros2) to have access to ros2 command-line tools, as an example for eloquent:`source /opt/ros/eloquent/setup.bash`
+Do not forget to [source your ros2 environment](https://docs.ros.org/en/eloquent/Tutorials/Configuring-ROS2-Environment.html) to have access to ros2 command-line tools, as an example for eloquent:`source /opt/ros/eloquent/setup.bash`
 
-Then, you can [build the package using colcon](https://https://docs.ros.org/en/eloquent/Tutorials/Colcon-Tutorial.html): `colcon build --symlink-install --packages-select leddar_ros2`
+Then, you can [build the package using colcon](https://docs.ros.org/en/eloquent/Tutorials/Colcon-Tutorial.html): `colcon build --symlink-install --packages-select leddar_ros2`
 
-You may source your [setup.bash file](https://https://docs.ros.org/en/foxy/Tutorials/Creating-Your-First-ROS2-Package.html#source-the-setup-file), to use the newly build package : `. install/setup.bash`
+You may source your [setup.bash file](https://docs.ros.org/en/eloquent/Tutorials/Creating-Your-First-ROS2-Package.html#source-the-setup-file), to use the newly build package : `. install/setup.bash`
 
 Finally, you should be ready to use leddar_ros2 package.
 

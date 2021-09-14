@@ -102,6 +102,15 @@ class LeddarSensor(Node):
             #rclpy.logerr(err_msg)
             raise RuntimeError(err_msg)
 
+        self.get_logger().info('Connected to device type {0} with connection info {1}/{2}/{3}.'.format(device_type, param1, str(param3), str(param4)))
+        
+        dev_type_read = self.dev.get_property_value(leddar.property_ids["ID_DEVICE_TYPE"])
+        dev_protocol = self.dev.get_property_value(leddar.property_ids["ID_DATA_SERVER_PROTOCOL"])
+
+        #Get info from sensor
+        self.get_logger().info(f'ID_DEVICE_TYPE: {dev_protocol}')
+        self.get_logger().info(f'ID_DATA_SERVER_PROTOCOL: {dev_protocol}')
+
         #Set callback method
         self.dev.set_callback_echo(self.echoes_callback)
 
