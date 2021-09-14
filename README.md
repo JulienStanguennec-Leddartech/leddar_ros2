@@ -6,13 +6,13 @@ This is a first attempt at migrating from ros1 to ros2, to provide a ros2 packag
 
 ## Dependencies
 
-The only ros node that publishes PointCloud2 messages is written in python and uses rclpy from ros and leddarpy from [LeddarSDK](https://https://github.com/leddartech/LeddarSDK)
+The only ros node that publishes PointCloud2 messages is written in python and uses rclpy from ros and leddarpy from [LeddarSDK](https://github.com/leddartech/LeddarSDK)
 
-You need to first to build and install **LeddarSDK leddar python module** from the documentation of the LeddarSDK here : [https://github.com/leddartech/LeddarSDK/blob/master/README.md](https://https://github.com/leddartech/LeddarSDK/blob/master/README.md)
+You need to first to build and install **LeddarSDK leddar python module** from the documentation of the LeddarSDK here : [https://github.com/leddartech/LeddarSDK/blob/master/README.md](https://github.com/leddartech/LeddarSDK/blob/master/README.md)
 
 ### Build the node
 
-The easiest would be to install [ros2 from via debian package](https://https://docs.ros.org/en/eloquent/Installation/Linux-Install-Debians.html) (link provided for ros2/eloquent on Ubuntu 18.04 (the tested setup)). In short:
+The easiest would be to install [ros2 from via debian package](https://docs.ros.org/en/eloquent/Installation/Linux-Install-Debians.html) (link provided for ros2/eloquent on Ubuntu 18.04 (the tested setup)). In short:
 
 ```bash
 sudo apt update && sudo apt install curl gnupg2 lsb-release
