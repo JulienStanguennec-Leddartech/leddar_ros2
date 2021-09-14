@@ -41,7 +41,7 @@ To run the leddar_sensor node which publishes PointCloud2 messages from the sens
 
   * Once rviz is open click on the add button -> Create vizualization -> By topic and select /scan_cloud or load the leddar_ros2/config/leddar_rviz.rviz configuration file.
 
-**Node: The default value for the arguments are configured for a pixell (Ethernet) sensor.** The `leddar_sensor` node should allow connection to all sensor supported within LeddarSDK. To do so it uses the same parameters/arguments as the connect method of the Device class of leddarpy module [here](https://https://sdk.leddartech.com/v4.3/#/Python?id=device-class).
+**Node: The default value for the arguments are configured for a pixell (Ethernet) sensor.** The `leddar_sensor` node should allow connection to all sensor supported within LeddarSDK. To do so it uses the same parameters/arguments as the connect method of the Device class of leddarpy module [here](https://sdk.leddartech.com/v4.3/#/Python?id=device-class).
 
 You may launch `leddar_sensor` node with parameters depending on the sensor that you have with the following command:
 
